@@ -1,0 +1,641 @@
+@import url("https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Alan Sans", sans-serif;
+  font-weight: 400;
+}
+
+html,
+body,.landing {
+  height: 100%;
+  width: 100%;
+}
+
+.landing .nav {
+  height: 12%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 17px;
+  padding: 0 3%;
+}
+
+.landing .nav .left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.landing .nav .left img {
+  height: 25px;
+  padding-right: 20px;
+}
+
+.landing .nav .left h4:hover {
+  color: gray;
+  cursor: pointer;
+}
+
+.landing .nav .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.landing .nav .right button {
+  border: none;
+  font-size: 17px;
+  padding: 8px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.landing .nav .right .signup {
+  background-color: transparent;
+}
+
+.landing .nav .right .signup:hover {
+  color: gray;
+}
+
+.landing .nav .right .login {
+  color: #fff;
+  background-color: black;
+}
+
+.landing .nav .right .login:hover {
+  background-color: rgb(54, 54, 54);
+}
+
+.landing .main {
+  height: 76%;
+  width: 100%;
+  padding: 0 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.landing .main .info {
+  height: 100%;
+  width: 50%;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  gap: 5%;
+  gap: 30px;
+}
+
+.landing .main .info .top{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+.landing .main .info .bottom{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.landing .main .info #heading {
+  width: 70%;
+  font-size: 60px;
+  line-height: 50px;
+}
+
+.landing .main .info #para {
+  width: 90%;
+  font-size: 20px;
+  font-weight: 400;
+  color: grey;
+  line-height: 20px;
+}
+
+.landing .main .info .selectors {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.landing .main .info .selectors .select {
+  display: flex;
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 15px;
+  gap: 10px;
+  font-weight: 200;
+  cursor: pointer;
+}
+
+.landing .main .info .selectors .select i {
+  font-size: 20px;
+}
+
+.landing .main .info .selectors .select:hover {
+  color: #fff;
+  background-color: rgb(54, 54, 54);
+  border-radius: 20px;
+}
+
+.landing .main .info .inputContainer {
+  height: 50px;
+  width: 90%;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 25px;
+  position: relative;
+}
+
+.landing .main .info .inputContainer:hover{
+    border: 2px solid rgba(216, 125, 155, 0.205);
+    background-color: #fff;
+}
+
+.landing .main .info .inputContainer input {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  font-size: 15px;
+  outline: none;
+}
+
+.landing .main .info .inputContainer .search {
+  position: absolute;
+  right: 5px;
+}
+
+.landing .main .info .inputContainer .search i {
+  width: 10%;
+  padding: 12px;
+  height: 100%;
+  border-radius: 50%;
+  color: #fff;
+  background-color: palevioletred;
+  cursor: pointer;
+}
+
+.landing .main .info .inputContainer .search i:hover {
+  background-color: rgb(216, 125, 156);
+}
+
+.landing .main .right{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing .main .right .video{
+    height: 80%;
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+    overflow: hidden;
+    object-position:center;
+}
+
+.landing .bottom{
+  margin: 0 7%;
+  height: 12%;
+  border-radius: 15px;
+  background-color: rgb(248, 246, 246);
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+  cursor: pointer;
+}
+
+.landing .bottom .button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:15px;
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  position: relative;
+}
+
+.landing .bottom .button i{
+  font-size: 22px;
+  color: rgba(128, 0, 128, 0.459);
+}
+
+.landing .bottom .button h3{
+  font-size: 17px;
+}
+
+.landing .bottom .button span{
+  position: absolute;
+  font-size: 12px;
+  padding: 2px 6px;
+  background-color: red;
+  color: #fff;
+  border-radius: 20px;
+  top: 0;
+}
+
+.landing .bottom .para{
+ font-size: 15px;
+  font-weight: 100;
+}
+
+.products{
+  height: 105%;
+  width: 100%;
+  position: relative;
+}
+
+.products .nav {
+  height: 9%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 17px;
+  padding: 0 3%;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  white-space: nowrap;
+  z-index: 100;
+}
+
+.products .nav .left {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.products .nav .left img {
+  height: 25px;
+  padding-right: 20px;
+}
+
+.products .nav .left .inputContainer {
+  width: 50%;
+  height: 50px;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 25px;
+  background-color: rgb(243, 243, 243);
+  position: relative;
+}
+
+.products .nav .left .inputContainer:hover{
+    border: 2px solid rgba(216, 125, 155, 0.205);
+    background-color: #fff;
+}
+
+.products .nav .left .inputContainer input {
+  width: 95%;
+  border: none;
+  background-color: transparent;
+  font-size: 15px;
+  outline: none;
+}
+
+.products .nav .left .inputContainer .search {
+  position: absolute;
+  right: 5px;
+}
+
+.products .nav .left .inputContainer .search i {
+  width: 10%;
+  padding: 12px;
+  height: 100%;
+  border-radius: 50%;
+  color: #fff;
+  background-color: palevioletred;
+  cursor: pointer;
+}
+
+.products .nav .left .inputContainer .search i:hover {
+  background-color: rgb(216, 125, 156);
+}
+
+.products .nav .left h4:hover {
+  color: gray;
+  cursor: pointer;
+}
+
+.products .nav .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.products .nav .right button {
+  border: none;
+  font-size: 17px;
+  padding: 8px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.products .nav .right .signup {
+  background-color: transparent;
+}
+
+.products .nav .right .signup:hover {
+  color: gray;
+}
+
+.products .nav .right .login {
+  color: #fff;
+  background-color: black;
+}
+
+.products .nav .right .login:hover {
+  background-color: rgb(54, 54, 54);
+}
+
+.products .subNav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 7%;
+}
+
+.products .subNav .left{
+  padding: 5px 0;
+}
+
+.products .subNav .left select{
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 17px;
+  cursor: pointer;
+  border: 1px solid gray;
+}
+
+.products .subNav .designs{
+  width: 60%;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  overflow-x: auto;
+  list-style: none;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.products .subNav .designs .design:hover{
+  color: gray;
+  cursor: pointer;
+}
+
+
+.products .subNav .designs::-webkit-scrollbar{
+  display: none;
+}
+
+.products .subNav .button{
+  font-size: 17px;
+  font-weight: 300;
+  padding: 7px 20px;
+  border: 1px solid gray;
+  border-radius: 25px;
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+}
+
+.products .designContainer{
+  width: 100%;
+  padding: 20px 7%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.products .designContainer .design{
+  width: 25%;
+  height: 250px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.products .designContainer .design .imgContain{
+  height: 80%;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.products .designContainer .design .imgContain img{
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.products .designContainer .design .imgContain .bottom{
+  height: 40%;
+  width: 100%;
+  background: linear-gradient(transparent,black);
+  position: absolute;
+  bottom: -40;
+  color: #fff;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.products .designContainer .design .imgContain:hover .bottom{
+  bottom: 0;
+}
+
+.products .designContainer .design .imgContain .bottom i{
+  font-size: 15px;
+  color: #000;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 50%;
+  cursor:pointer;
+}
+
+.products .designContainer .design .imgContain .bottom i:hover{
+  color: gray;
+}
+
+.products .designContainer .design .info{
+  height: 18%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.products .designContainer .design .info .developer{
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.products .designContainer .design .info .developer img{
+  height: 30px;
+  border-radius: 50%;
+}
+
+.products .designContainer .design .info .developer .name{
+  width: 40%;
+  overflow: hidden;
+}
+
+.products .designContainer .design .info .developer .collab{
+  background-color: gray;
+  color: #fff;
+  padding: 2px 7px;
+  border-radius: 5px;
+}
+
+.products .designContainer .design .info .developer .collab:hover{
+  background-color: #000;
+}
+
+.products .designContainer .design .info .react{
+  gap: 5px;
+  font-size: 15px;
+}
+
+.products .designContainer .design .info .react i{
+  color: gray;
+  cursor: pointer;
+}
+
+.products .designContainer .design .info .react i:hover{
+  color: rgb(219, 31, 163);
+}
+
+
+.products .continue{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.products .continue .button{
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.products .continue .button:hover{
+  background-color: gray;
+  cursor: pointer;
+}
+
+.footer{
+  margin: 50px 0;
+  width: 100%;
+  padding: 0 7%;
+}
+
+.footer .nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .nav img{
+  height: 20px;
+}
+
+.footer .nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+}
+
+.footer .nav .right{
+  font-size: 25px;
+}
+
+.footer .bottom{
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .bottom ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: gray;
+  list-style: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .landing .main .info{
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .landing .main .right{
+    display: none;
+  }
+
+  .landing .bottom .button span{
+    display: none;
+  }
+
+  .products .designContainer .design{
+    width: 33%;
+  }
+
+  .footer .nav img{
+    display: none;
+  }
+  
+}
+
+
+
+
+
+
+
+

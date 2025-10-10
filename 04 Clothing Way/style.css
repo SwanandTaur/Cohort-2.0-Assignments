@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Gochi+Hand&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(122, 175, 128),
+    rgb(151, 170, 88)
+  );
+  height: 100vh;
+  font-family: "Gochi Hand", cursive;
+  overflow: hidden;
+}
+
+.nav {
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+}
+
+.nav .logo {
+  display: flex;
+  gap: 10px;
+}
+
+.nav .logo > span {
+  font-size: 30px;
+}
+
+.nav .logo span span {
+  color: #fff;
+}
+
+.nav .facilities ul {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  font-size: 18px;
+}
+
+.nav .facilities ul li {
+  cursor: pointer;
+}
+
+.nav .facilities select {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.nav .button {
+  display: flex;
+  gap: 10px;
+  border: 1px solid black;
+  padding: 3px 10px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main img{
+    height:110%;
+    position: absolute;
+    top: 0;
+}
+
+#flowerContent1{
+  position: absolute;
+  top:25%;
+  left: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#flowerContent1 img{
+  height: 20px;
+}
+#flowerContent1 span{
+  width: 180px;
+}
+
+#flowerContent1 .fl1{
+  transform: rotate(180deg);
+}
+
+#flowerContent2{
+  position: absolute;
+  bottom:40%;
+  right: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#flowerContent2 img{
+  height: 20px;
+}
+#flowerContent2 span{
+  width: 180px;
+}
+
+#flowerContent2 .fl1{
+  transform: rotate(180deg);
+}
+
+.about{
+  height: 47%;
+  width: 30%;
+  position: absolute;
+  left: 21%;
+  bottom: 15%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #fff;
+  font-size: 60px;
+}
+
+.about .ratings{
+  display: flex;
+  gap: 10px;
+}
+
+.about .ratings .star{
+  height: 30px;
+}
+
+.about .text{
+  display: flex;
+  flex-direction: column;
+}
+
+#c{
+  position: relative;
+  z-index: -1;
+}
+
+.stack{
+  height: 180px;
+  width: 120px;
+  position: absolute;
+  bottom: 20%;
+  right: 10%;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.stack img{
+  height: 70px;
+}
+
+.stack p{
+  font-size: 10px;
+}
+
+.footer{
+  width: 100%;
+  position:absolute;
+  bottom: 0;
+  height: 50px;
+  background-color: rgb(1, 13, 1);
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+}
+
+.footer>div{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.footer .images img{
+  height: 30px;
+  border-radius: 10px;
+}
+
+.footer span{
+  font-size: 25px;
+}
+
+.footer .button{
+  background-color: white;
+  padding: 5px 20px;
+  color: #000;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+}
+.footer .button img{
+  height: 18px;
+  transform: rotate(-45deg);
+}
+
+

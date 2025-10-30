@@ -1,0 +1,476 @@
+@import url("https://fonts.googleapis.com/css2?family=Alan+Sans:wght@100..600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Alan Sans", sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+html,
+body {
+  font-size: 10px;
+  height: 100%;
+  width: 100%;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  max-width: 2000px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1rem;
+  padding: 1rem;
+}
+
+main .container {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 1rem;
+  background-color: #fff;
+}
+
+main .container > h1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+main #mainViolet {
+  color: #fff;
+  background-color: #7651dc;
+}
+
+main #mainViolet #mainHeading {
+  font-size: 3.5rem;
+}
+
+main #mainViolet #mainHeading span {
+  color: #fecc6c;
+}
+
+main #mainViolet #stars i {
+  font-size: 2rem;
+  color: #fecc6c;
+}
+
+main #mainViolet p {
+  font-size: 1.5rem;
+}
+
+main #social .socials {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+main #social .socials > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem 0.5rem 0.3rem;
+  border-radius: 2rem;
+  box-shadow: -0.1rem 0.1rem 0.1rem #e2e2e2;
+  gap: 0.5rem;
+}
+
+main #social .socials > div i {
+  color: #855db3;
+  font-size: 1.7rem;
+  border-radius: 50%;
+  padding: 0.7rem;
+  background-color: #fecb6e;
+}
+
+main #social .socials > div .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+main #social .socials > div .info .id {
+  font-size: 1.2rem;
+}
+
+main #social .socials > div .info .followers {
+  font-size: 0.8rem;
+}
+
+main #schedule {
+  background-color: #ffcc69;
+  padding-bottom: 0;
+}
+
+main #schedule #calender {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #7651dc;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+main #schedule #calender #head {
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+main #schedule #calender .dates {
+  width: 100%;
+  padding: 1rem;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+main #schedule #calender .dates i {
+  font-size: 2rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+  color: #fcebd1;
+}
+
+main #schedule #calender .dates .bg {
+  font-size: 1rem;
+  background-color: #7651dc;
+  color: #fff;
+}
+
+main #time {
+  width: 100%;
+  background-color: #dcd1fc;
+}
+
+main #time .timing {
+  width: 100%;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+main #time .timing > h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid gray;
+}
+
+main #time .timing .days {
+  width: 100%;
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main #time .timing .days .day {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+}
+
+main #time .timing .days .mon {
+  background-color: #fcd6dd;
+  border-radius: 50%;
+}
+
+main #time .timing .range {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+main #time .timing .range > div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.5rem;
+}
+
+main #time .timing .range > div .tm {
+  font-size: 1.2rem;
+}
+
+main #time .timing .range > div .level {
+  background-color: #7651dc;
+  padding: 0.5rem;
+  border-radius: 1.5rem;
+}
+
+main #time .timing .range > div .first {
+  width: 20%;
+}
+main #time .timing .range > div .second {
+  width: 30%;
+}
+main #time .timing .range > div .third {
+  width: 80%;
+}
+main #time .timing .range > div .fourth {
+  width: 60%;
+}
+main #time .timing .range > div .fifth {
+  width: 40%;
+}
+main #time .timing .range > div .sixth {
+  width: 50%;
+}
+main #time .timing .range > div .seventh {
+  width: 70%;
+}
+main #time .timing .range > div .eighth {
+  width: 45%;
+}
+
+main #time > p {
+  font-size: 1.4rem;
+}
+
+main #growth {
+  background-color: #7651dc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+main #growth .grow {
+  padding: 1rem;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 2rem;
+}
+
+main #growth .grow i {
+  color: #7651dc;
+  font-size: 2.2rem;
+  padding: 0.5rem;
+  background-color: #fec96e;
+  border-radius: 50%;
+}
+
+main #growth .grow .follows {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+main #growth .grow .follows p {
+  font-size: 1.2;
+}
+
+main #growth .grow .follows h2 {
+  font-weight: 600;
+}
+
+main #growth span {
+  padding: 0.5rem;
+  background-color: #d6fee9;
+  color: #6ba985;
+}
+
+main #growth > h1 {
+  color: #fff;
+}
+
+main #aud {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+}
+
+main #aud h1 i {
+  font-size: 2.5rem;
+}
+main #aud p {
+  font-size: 1.5rem;
+}
+
+main #aud .profiles {
+  display: flex;
+}
+
+main #aud .profiles img {
+  width: 6rem;
+  border-radius: 50%;
+}
+
+main #post {
+  width: 100%;
+  background-color: #faeee2;
+}
+
+main #post i {
+  color: #7651dc;
+  font-weight: 600;
+}
+
+main #post .button {
+  color: #7651dc;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  background-color: #fec96e;
+  border-radius: 1.5rem;
+}
+
+main #ai {
+  background-color: #ffcc69;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+main #ai .chat {
+  background-color: #fff;
+  width: 80%;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+main #ai .chat > div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+main #ai .chat > div .text {
+  font-size: 1.4rem;
+  padding: 0.5rem;
+  border-radius: 1.5rem;
+  background-color: #fcebd1;
+}
+
+main #ai .chat > div img {
+  width: 3rem;
+  border-radius: 50%;
+}
+
+main #ai .chat > div i {
+  color: #7651dc;
+  font-size: 2rem;
+  padding: 0.5rem;
+  background-color: #ebe5fb;
+  border-radius: 50%;
+}
+
+@media screen and (min-width: 768px) {
+  main {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+      "post mainViolet mainViolet"
+      "post mainViolet mainViolet"
+      "post social aud"
+      "ai social aud"
+      "ai schedule schedule"
+      "follow time time";
+  }
+  main #mainViolet {
+    grid-area: mainViolet;
+  }
+  main #social {
+    gap: 3rem;
+    grid-area: social;
+  }
+  main #schedule {
+    grid-area: schedule;
+    flex-direction: row;
+  }
+  main #time {
+    grid-area: time;
+  }
+  main #growth {
+    gap: 3rem;
+    grid-area: follow;
+  }
+  main #aud {
+    gap: 3rem;
+    grid-area: aud;
+  }
+  main #ai {
+    grid-area: ai;
+  }
+  main #post {
+    grid-area: post;
+  }
+}
+@media screen and (min-width: 1024px) {
+  main {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "post mainViolet mainViolet time"
+      "post mainViolet mainViolet time"
+      "post social schedule time"
+      "ai social schedule time"
+      "ai aud follow follow";
+  }
+  main #mainViolet {
+    grid-area: mainViolet;
+  }
+  main #social {
+    gap: 3rem;
+    grid-area: social;
+  }
+  main #schedule {
+    grid-area: schedule;
+    flex-direction: row;
+  }
+  main #time {
+    grid-area: time;
+  }
+  main #growth {
+    gap: 3rem;
+    grid-area: follow;
+  }
+  main #aud {
+    gap: 3rem;
+    grid-area: aud;
+  }
+  main #ai {
+    gap: 3rem;
+    grid-area: ai;
+  }
+  main #post {
+    grid-area: post;
+  }
+}
